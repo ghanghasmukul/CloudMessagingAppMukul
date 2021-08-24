@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955657924023",
+    "project_id": "cloudmessagingapp-20b72",
+    "storage_bucket": "cloudmessagingapp-20b72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955657924023:android:227798bfb46e2d49ce0c32",
+        "android_client_info": {
+          "package_name": "com.mukul.cloudmessagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955657924023-r63q7a7gkl9q6ddff52uttgatspqoou4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDso3QAfmEY9TUH3EMcKuIv8I75lk9oP60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955657924023-r63q7a7gkl9q6ddff52uttgatspqoou4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

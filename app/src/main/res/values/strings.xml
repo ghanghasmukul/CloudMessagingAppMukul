@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CloudMessagingApp</string>
+    <string name="sender_details_text">%s : %s</string>
+</resources>
