@@ -9,6 +9,17 @@
         <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingApp2/app/src/main/res/layout/item_message_rv.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2635416666666667" />
         <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/activity_chat_screen.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/activity_contact_screen.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/activity_contact_screen2.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/activity_home_screen.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/activity_main.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/item_contact_rv.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/item_message_rv.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/item_recent_chat_rv.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/mukul/AndroidStudioProjects/CloudMessagingAppMukul/app/src/main/res/layout/recent_chat_rv.xml" value="0.23143115942028986" />
       </map>
     </option>
   </component>

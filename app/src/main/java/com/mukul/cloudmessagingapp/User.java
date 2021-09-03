@@ -2,16 +2,15 @@ package com.mukul.cloudmessagingapp;
 
 public class User {
 
-    String uid, userName, userEmail, userPhoneNum;
+    String uid, userName, userPhoneNum;
 
     public User() {
 
     }
 
-    public User(String uid, String userName, String userEmail, String userPhoneNum) {
+    public User(String uid, String userName, String userPhoneNum) {
         this.uid = uid;
         this.userName = userName;
-        this.userEmail = userEmail;
         this.userPhoneNum = userPhoneNum;
     }
 
@@ -29,14 +28,6 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
-    }
-
-    public String getUserEmail() {
-        return userEmail;
-    }
-
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
     }
 
     public String getUserPhoneNum() {

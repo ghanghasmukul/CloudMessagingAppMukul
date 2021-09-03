@@ -2,37 +2,19 @@ package com.mukul.cloudmessagingapp;
 
 public class MessageModel {
 
-    String message, senderID, senderName, picURL, senderPhoneNum, senderEmail;
+    String message, picURL;
+    boolean sentByOwn;
     long sendTime = System.currentTimeMillis();
 
     public MessageModel() {
 
     }
 
-    public MessageModel(String message, String senderID, String senderName, String picURL, String senderPhoneNum, String senderEmail, long sendTime) {
+    public MessageModel(String message, String picURL, boolean sentByOwn, long sendTime) {
         this.message = message;
-        this.senderID = senderID;
-        this.senderName = senderName;
-        this.picURL = picURL;
-        this.senderPhoneNum = senderPhoneNum;
-        this.senderEmail = senderEmail;
         this.sendTime = sendTime;
-    }
-
-    public String getSenderPhoneNum() {
-        return senderPhoneNum;
-    }
-
-    public void setSenderPhoneNum(String senderPhoneNum) {
-        this.senderPhoneNum = senderPhoneNum;
-    }
-
-    public String getSenderEmail() {
-        return senderEmail;
-    }
-
-    public void setSenderEmail(String senderEmail) {
-        this.senderEmail = senderEmail;
+        this.sentByOwn = sentByOwn;
+        this.picURL = picURL;
     }
 
     public String getMessage() {
@@ -43,20 +25,21 @@ public class MessageModel {
         this.message = message;
     }
 
-    public String getSenderID() {
-        return senderID;
+
+    public long getSendTime() {
+        return sendTime;
     }
 
-    public void setSenderID(String senderID) {
-        this.senderID = senderID;
+    public void setSendTime(long sendTime) {
+        this.sendTime = sendTime;
     }
 
-    public String getSenderName() {
-        return senderName;
+    public boolean isSentByOwn() {
+        return sentByOwn;
     }
 
-    public void setSenderName(String senderName) {
-        this.senderName = senderName;
+    public void setSentByOwn(boolean sentByOwn) {
+        this.sentByOwn = sentByOwn;
     }
 
     public String getPicURL() {
@@ -65,13 +48,5 @@ public class MessageModel {
 
     public void setPicURL(String picURL) {
         this.picURL = picURL;
-    }
-
-    public long getSendTime() {
-        return sendTime;
-    }
-
-    public void setSendTime(long sendTime) {
-        this.sendTime = sendTime;
     }
 }
