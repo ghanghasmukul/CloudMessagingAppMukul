@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -19,19 +20,21 @@ import com.google.firebase.database.Query;
 
         private FirebaseDatabase mFirebaseDatabase;
         private DatabaseReference usersDBRef;
-
+        ImageView backButton;
         RecyclerView contactsRV;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_contact_screen);
+            getSupportActionBar().hide();
 
             contactsRV = findViewById(R.id.contactsRV);
+            backButton = findViewById(R.id.backIV);
 
             mFirebaseDatabase = FirebaseDatabase.getInstance();
             usersDBRef = mFirebaseDatabase.getReference().child("users");
-
+            backButton.setOnClickListener(v -> onBackPressed());
             setUpContactsRV();
         }
 

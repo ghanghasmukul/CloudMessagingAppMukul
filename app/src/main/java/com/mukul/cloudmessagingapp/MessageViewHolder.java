@@ -52,7 +52,7 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
                 Glide.with(ownMessageImageIV).load(message.picURL).into(ownMessageImageIV);
             }
 
-            ownSendTimeTV.setText(new SimpleDateFormat("MMM,dd  hh:mm aaa").format(message.sendTime));
+            ownSendTimeTV.setText(new SimpleDateFormat("MMM,dd  h:mm a").format(message.sendTime));
 
         } else {
             ownMessageLayout.setVisibility(View.GONE);
@@ -68,7 +68,7 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
                 Glide.with(othersMessageImageIV).load(message.picURL).into(othersMessageImageIV);
             }
 
-            othersSendTimeTV.setText(new SimpleDateFormat("MMM,dd  hh:mm aaa").format(message.sendTime));
+            othersSendTimeTV.setText(new SimpleDateFormat("MMM,dd  h:mm a").format(message.sendTime));
 
         }
 

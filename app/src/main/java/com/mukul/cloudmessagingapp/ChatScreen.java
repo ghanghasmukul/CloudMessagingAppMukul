@@ -32,7 +32,6 @@ import com.google.firebase.storage.StorageReference;
 
 
     public class ChatScreen extends AppCompatActivity {
-
         private EditText messagesET;
         private ImageView sendMessageBtn, pickPhotoIV;
         private RecyclerView messagesRV;
@@ -61,7 +60,7 @@ import com.google.firebase.storage.StorageReference;
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_chat_screen);
-
+            getSupportActionBar().hide();
             backButton = findViewById(R.id.backIV);
             chatContactName = findViewById(R.id.chatContactName);
 
